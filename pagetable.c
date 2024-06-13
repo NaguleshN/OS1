@@ -2,8 +2,10 @@
 #include<stdlib.h>
 
 int main() {
-    int n = 10;
-    int arr[10];
+    int n ;
+    printf("Enter memory size for the array:");
+    scanf("%d",&n);
+    int arr[n];
     int p;
     int d;
     int i;
